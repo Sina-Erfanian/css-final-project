@@ -23,7 +23,26 @@ ul {
   padding: 0;
   list-style: none;
 }
-p {
-  margin: 0;
+.navbar {
+  min-height: 60px;
 }
-
+.right-side {
+  margin-top: 10px;
+}
+.navbar .right-side i {
+  padding: 0 15px;
+  color: #5c636a;
+  transition: color 0.5s ease;
+  font-size: 17px;
+}
+.navbar .right-side i:hover {
+  color: rgb(105, 105, 231);
+}
+.hero-header img {
+  padding: 0;
+  height: calc(100vh - 60px);
+}
+.hero-header p {
+  top: 50%;
+  color: #c7c6c6;
+}
